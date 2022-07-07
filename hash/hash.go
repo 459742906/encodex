@@ -11,5 +11,5 @@ func Md5(str string) string {
 	re := h.Sum(nil)
 	md5Str := fmt.Sprintf("%#v",re)
 
-	return md5Str+"v1.0.8"
+	return md5Str+"v1.0.9"
 }
